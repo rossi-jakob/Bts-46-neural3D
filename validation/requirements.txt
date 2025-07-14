@@ -1,0 +1,16 @@
+numpy
+opencv_python
+Pillow
+scikit-image
+torch
+torchvision
+fastapi
+uvicorn
+transformers
+trimesh
+open-clip-torch
+setuptools
+sentence-transformers
+python-dotenv
+SciPy
+pytesseract
