@@ -1,6 +1,8 @@
 # python3.9 test success
 
-pip install torch==2.1.0 torchvision==0.16.0 --index-url https://download.pytorch.org/whl/cu121
+# pip install torch==2.1.0 torchvision==0.16.0 --index-url https://download.pytorch.org/whl/cu121
+pip install torch==2.1.0+cu121 torchvision==0.16.0+cu121 --index-url https://download.pytorch.org/whl/cu121
+
 
 pip install diffusers transformers
 
@@ -21,3 +23,7 @@ pip install uvicorn
 pip install onnxruntime
 
 pip install typeguard
+
+# Install xformers (compatible with torch==2.1.0 and CUDA 12.1)
+pip install xformers==0.0.23 --index-url https://download.pytorch.org/whl/cu121
+
